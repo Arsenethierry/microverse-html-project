@@ -1,0 +1,95 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    a,
+    span,
+    img {
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    #header div {
+        width: 20rem;
+    }
+    
+    #header div img {
+        width: 100%;
+    }
+    
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+        position: sticky;
+        top: 0;
+    }
+    
+    #nav-bar {
+        display: flex;
+        gap: 4rem;
+        color: #000;
+        margin-right: 8rem;
+    }
+    
+    #nav-bar a {
+        color: #000;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 1.4rem;
+        margin-top: 4rem;
+    }
+    
+    form {
+        display: grid;
+        place-items: center;
+        margin-top: 2rem;
+    }
+    
+    #email {
+        width: 20%;
+        padding: .6rem;
+        background: #fff;
+        border-width: 1px;
+        border-radius: .3rem;
+    }
+    
+    #submit {
+        display: block;
+        margin-top: 1rem;
+        border: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        background-color: #f1c40f;
+        padding: .5rem;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    .features {
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    
+    .features div {
+        display: flex;
+        gap: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .features span {
+        display: block;
+        font-size: 3rem;
+    }
